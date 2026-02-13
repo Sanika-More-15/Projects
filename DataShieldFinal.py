@@ -99,7 +99,7 @@ def MarvellousDataShieldStart(Source="Data"):
     zip_file=make_zip(BackupName)
 
 
-    # ✅ SEND MAIL AFTER BACKUP
+    # SEND MAIL AFTER BACKUP
     sender_email="152004.sanika@gmail.com"
     app_passward="hatgskcypldbkjyk"
     receiver_email="sanikamore.skncoe.comp@gmail.com"
@@ -190,4 +190,5 @@ def main():
     print(Border)
 
 if __name__=="__main__":
+
     main()
